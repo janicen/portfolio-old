@@ -151,6 +151,10 @@ ul li {
 		overflow: hidden;
 	}
 
+	h2 {
+		padding-left: 18.2em;
+	}
+
 /*.works {
 	float: right;
 	border: 1px solid black;
@@ -185,7 +189,7 @@ ul li {
 
 	.page.page-id-29.page-template-default.logged-in.works .footer, .page.page-id-29.page-template-default.works .footer {
 		clear: both;
-		margin-top: 120em;
+		margin-top: 125em;
 		border-top: 1px solid black;
 	}
 
@@ -238,7 +242,7 @@ ul li {
 		overflow: hidden;
 
 		position: absolute;
-		top: 400px;
+		top: 440px;
 		left: 300px;
 	}
 
