@@ -154,12 +154,12 @@ ul li {
 
 .column1 {
 	float: left;
-	padding: 2em 1em 2em 24em;
+	padding: 2em 1.3em 2em 24em;
 }
 
 .column2, .column3 {
 	float: left;
-	padding: 2em 1em;
+	padding: 2em 1.3em;
 }
 
 	.titles {
@@ -192,13 +192,14 @@ ul li {
 	overflow: hidden;
 }
 
-/*	#post-28 .images {
-		display: block;
+/*	#post-28 .column3 {
+		display: none;
 	}*/
 
-/*	#post-28 .column1, #post-28 .column2, #post-28 .column3 {
-		display: inline;
-	}*/
+	#post-28 .column1, #post-28 .column2, #post-28 .column3 {
+		padding-right: 0;
+/*		border: 1px solid black;*/
+	}
 
 
 	#post-28 p {
@@ -212,6 +213,10 @@ ul li {
 .post-29 {
 	overflow: hidden;
 }
+
+	#post-29 h2 {
+		padding-left: 16em;
+	}
 
 	.content {
 		width: 80%;
@@ -245,6 +250,10 @@ ul li {
 /*.post-29 footer {
 	border: 1px solid orange;
 }*/
+
+#post-32 {
+	margin-left: 24em
+}
 
 /*------------------------------------*\
     IMAGES
