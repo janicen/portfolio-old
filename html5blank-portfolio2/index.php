@@ -8,7 +8,7 @@
 <!-- 						<a href="<?php echo home_url(); ?>"> -->
 							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
 							<div class="titles">
-								<h1>Graphics</h1>
+								<h3>Graphics</h3>
 							</div>
 
 							<div class="column3">
@@ -27,7 +27,7 @@
 					<!-- interactions -->
 					<div class="line">
 							<div class="titles">
-								<h1>Interactions</h1>
+								<h3>Interactions</h3>
 							</div>
 
 <!-- 						<a href="<?php echo home_url(); ?>"> -->
@@ -48,7 +48,7 @@
 					<!-- products -->
 					<div class="line">
 							<div class="titles">
-								<h1>Products</h1>
+								<h3>Products</h3>
 							</div>
 
 <!-- 						<a href="<?php echo home_url(); ?>"> -->
