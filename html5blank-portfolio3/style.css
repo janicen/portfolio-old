@@ -187,6 +187,10 @@ ul li {
     PAGES
 \*------------------------------------*/
 
+#post-13, #post-15, #post-2 {
+	display: none;
+}
+
 /* --- ABOUT PAGE --- */
 #post-28 {
 	overflow: hidden;
