@@ -31,7 +31,7 @@ html {
 	font-size:62.5%;
 }
 body {
-	font:300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font:300 11px/1.4 'Istok Web', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	/*color:#444;*/
 	color: #5ECBF4;
 	background-color: #DAE6EA;
@@ -141,7 +141,7 @@ ul li {
 	#post-29 .sidebar ul li {
 		display: block;
 		line-height: 2em;
-		font-size: 1.2em;
+		font-size: 1.3em;
 	}
 
 [role="main"] h1 {
@@ -189,12 +189,12 @@ ul li {
 
 	.page.page-id-29.page-template-default.logged-in.works .footer, .page.page-id-29.page-template-default.works .footer {
 		clear: both;
-		margin-top: 125em;
+		margin-top: 130em;
 		border-top: 1px solid black;
 	}
 
 	.footer p {
-		font-size: 1.2em;
+		font-size: 1.3em;
 	}
 
 /*------------------------------------*\
@@ -231,7 +231,7 @@ ul li {
 
 	#post-28 p {
 		width: 50%;
-		font-size: 1.3em;
+		font-size: 1.4em;
 		color: #444444;
 	}
 
@@ -251,7 +251,7 @@ ul li {
 	}
 
 	.content p {
-		font-size: 1.2em;
+		font-size: 1.4em;
 		color: #444444;
 		line-height: 2em;
 	}
@@ -271,6 +271,14 @@ ul li {
 	border: 1px solid orange;
 }*/
 
+#post-32 h2 {
+	font-size: 1.5em;
+}
+
+#post-32 h4 {
+	font-size: 1.3em;
+}
+
 /*------------------------------------*\
     IMAGES
 \*------------------------------------*/
@@ -282,7 +290,7 @@ ul li {
 \*------------------------------------*/
 
 @font-face {
-	font-family:'Font-Name';
+	font-family:'Istok Web', sans-serif;
 	src:url('fonts/font-name.eot');
 	src:url('fonts/font-name.eot?#iefix') format('embedded-opentype'),
 		url('fonts/font-name.woff') format('woff'),
