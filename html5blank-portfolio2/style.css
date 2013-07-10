@@ -31,7 +31,8 @@ html {
 	font-size:62.5%;
 }
 body {
-	font:300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	/*font:300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+	font:300 11px/1.4 'Muli', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	/*color:#444;*/
 	color: #5ECBF4;
 	background-color: #DAE6EA;
@@ -184,7 +185,7 @@ ul li {
 
 	.page.page-id-29.page-template-default.logged-in.works .footer, .page.page-id-29.page-template-default.works .footer {
 		clear: both;
-		margin-top: 120em;
+		margin-top: 130em;
 		border-top: 1px solid black;
 	}
 
@@ -254,6 +255,14 @@ ul li {
 
 #post-29 h2 {
 	margin-left: 18.5em;
+}
+
+#post-32 h2 {
+	font-size: 1.5em;
+}
+
+#post-32 h4 {
+	font-size: 1.3em;
 }
 
 /*------------------------------------*\

@@ -15,7 +15,10 @@
 		<!-- icons -->
 		<link href="<?php echo get_template_directory_uri(); ?>/img/icons/favicon.ico" rel="shortcut icon">
 		<link href="<?php echo get_template_directory_uri(); ?>/img/icons/touch.png" rel="apple-touch-icon-precomposed">
-			
+
+		<!-- Font: Muli -->
+		<link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+
 		<!-- css + javascript -->
 		<?php wp_head(); ?>
 		<script>
