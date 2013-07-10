@@ -16,6 +16,9 @@
 		<link href="<?php echo get_template_directory_uri(); ?>/img/icons/favicon.ico" rel="shortcut icon">
 		<link href="<?php echo get_template_directory_uri(); ?>/img/icons/touch.png" rel="apple-touch-icon-precomposed">
 			
+		<!-- Font: Pontano Sans -->
+		<link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
+
 		<!-- css + javascript -->
 		<?php wp_head(); ?>
 		<script>

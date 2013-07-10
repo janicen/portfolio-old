@@ -31,7 +31,7 @@ html {
 	font-size:62.5%;
 }
 body {
-	font:300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font:300 11px/1.4 'Pontano Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	/*color:#444;*/
 	color: #5ECBF4;
 	background-color: #DAE6EA;
@@ -208,9 +208,9 @@ ul li {
 
 	#post-28 p {
 		width: 72%;
-		font-size: 1.3em;
+		font-size: 1.4em;
 		color: #444444;
-		margin-left: 18.5em;
+		margin-left: 17.2em;
 	}
 
 /* --- WORKS PAGE --- */
@@ -235,7 +235,7 @@ ul li {
 	}
 
 	.content p {
-		font-size: 1.2em;
+		font-size: 1.4em;
 		color: #444444;
 		line-height: 2em;
 	}
@@ -257,6 +257,14 @@ ul li {
 
 #post-32 {
 	margin-left: 24em
+}
+
+#post-32 h2 {
+	font-size: 1.5em;
+}
+
+#post-32 h4 {
+	font-size: 1.3em;
 }
 
 /*------------------------------------*\
