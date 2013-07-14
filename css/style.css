@@ -6,5 +6,166 @@
 
 	CSS file: Main Style
 
+	1.Base 2.Grid 3.Layout 4.Links
+
 */
 
+/* ================================================================ 
+	BASE START 
+================================================================  */
+
+html, body {
+	font-family: 'Istok Web', Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: 400px;
+	color: #000000;
+/*	background-color: #DAE6EA;*/
+	background-color: #DEE6EA;
+}
+
+html, body, ul, ol, li, form, fieldset, legend,
+h1, h2, h3, h4, h5, h6, p {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+	/* ========== FONT ========== */	
+	h1 {
+		font-size: 2.8em;
+		color: #5ECBF4;
+	}
+
+li {
+	list-style: none;
+}
+
+/* ================================================================ 
+	BASE END 
+================================================================  */
+
+
+
+/* ================================================================ 
+	GRID START
+================================================================  */
+
+/* ========== CONTAINER ========== */
+.container {
+	margin: 0px auto;
+	max-width: 960px;
+/*	border: 1px solid black;*/
+}
+
+/* ========== COLUMNS ========== */
+.column1, .column2, .column3 {
+	float: right;
+	padding-left: 3.5em;
+}
+
+/* ========== ROWS ========== */
+.graphics, .interactions, .products {
+	border: 1px solid orange;
+}
+
+/* ================================================================ 
+	GRID END
+================================================================  */
+
+
+
+/* ================================================================ 
+	LAYOUT START
+================================================================  */
+
+/* ========== HEADER ========== */
+.logo {
+	text-align: center;
+	padding-top: 2em;
+}
+
+	.logo img {
+		border: none;
+	}
+
+/* ========== NAVBAR ========== */
+nav ul {
+	text-align: right;
+}
+
+nav ul li {
+	display: inline;
+	font-size: 1.6em;
+	font-weight: bold;
+	padding-left: 2em;
+}
+
+/* ========== FOOTER ========== */
+footer .wrapper {
+	text-align: center;
+	padding: 1em;
+	margin: 1em;
+	border-top: 1px solid black;
+}
+
+footer p {
+	font-size: 1.2em;
+}
+
+/* ========== WRAPPER ========== */
+.wrapper {
+	margin: 2em 0;
+	border-top: 1px solid black;
+	overflow: hidden;
+}
+
+/* ========== IMAGES ========== */
+img {
+	border: 5px solid #5ECBF4;
+}
+
+/* ========== CONTENT ========== */
+.content {
+	overflow: hidden;
+}
+
+.title {
+	float: left;
+	padding-right: 1.5em;
+}
+
+/* ================================================================ 
+	LAYOUT END
+================================================================  */
+
+
+
+/* ================================================================ 
+	LINKS START 
+================================================================  */
+
+/* ========== LINKS ========== */
+a {
+	color: #5ECBF4;
+	text-decoration: none;
+
+	/* ========== FADE TRANSITION ========== */
+	-webkit-transition:color .3s ease-out, background .5s ease-in;
+	-moz-transition:color 	.3s ease-out, background .5s ease-in;
+	-o-transition:color 	.3s ease-out, background .5s ease-in;
+  	-ms-transition:color 	.3s ease-out, background .5s ease-in;
+  		transition:color 	.3s ease-out, background .5s ease-in;
+}
+
+	a:hover {
+/*		color: #444444;*/
+		color: #000000;
+	}
+
+	.onpage {
+		color: #000000;
+	}
+
+/* ================================================================ 
+	LINKS END 
+================================================================  */
