@@ -65,7 +65,8 @@ li {
 
 /* ========== ROWS ========== */
 .graphics, .interactions, .products {
-	border: 1px solid orange;
+/*	border: 1px solid orange;*/
+	clear: both;
 }
 
 /* ================================================================ 
@@ -79,57 +80,97 @@ li {
 ================================================================  */
 
 /* ========== HEADER ========== */
-.logo {
-	text-align: center;
-	padding-top: 2em;
+header {
+	margin-bottom: 4em;
+	overflow: hidden;
 }
 
+	.logo {
+		width: 75%;
+		/*text-align: left;*/
+		float: left;
+		padding-top: 2em;
+	}
+
 	.logo img {
-		border: none;
+		width: 30%;
+		height: auto;
 	}
 
 /* ========== NAVBAR ========== */
-nav ul {
+nav {
 	text-align: right;
 }
 
-nav ul li {
-	display: inline;
-	font-size: 1.6em;
-	font-weight: bold;
-	padding-left: 2em;
+	/* full line */
+	/*nav ul {
+		width: 78%;
+		float: right;
+		padding-top: 1.2em;
+		margin-top: -6.75em;
+		border-top: 4px solid black;
+	}*/
+
+	/* medium line */
+	/*nav ul {
+		width: 30%;
+		float: right;
+		padding-top: 1.2em;
+		margin-top: -6.75em;
+		border-top: 4px solid black;
+	}*/
+
+	/* short line */
+	nav ul {
+		width: 30%;
+		float: right;
+		margin-top: -6em;
+	}
+
+	nav ul li {
+		display: inline;
+		font-size: 1.6em;
+		font-weight: bold;
+		padding: .1em 0 0 2em;
+		margin-left: 1em;
+		border-top: 4px solid black;
 }
 
 /* ========== FOOTER ========== */
-footer .wrapper {
+.footerwrapper {
 	text-align: center;
-	padding: 1em;
-	margin: 1em;
+	padding-top: 1em;
+	margin-top: 3em;
 	border-top: 1px solid black;
 }
 
-footer p {
-	font-size: 1.2em;
-}
+	footer p {
+		font-size: 1.2em;
+		padding-bottom: 1em;
+	}
 
 /* ========== WRAPPER ========== */
 .wrapper {
-	margin: 2em 0;
-	border-top: 1px solid black;
+	padding-top: 2em;
+	border-bottom: 1px solid black;
 	overflow: hidden;
 }
 
 /* ========== IMAGES ========== */
 img {
-	border: 5px solid #5ECBF4;
 }
 
 /* ========== CONTENT ========== */
 .content {
+	clear: both;
 	overflow: hidden;
 }
 
 .title {
+	overflow: hidden;
+}
+
+.text {
 	float: left;
 	padding-right: 1.5em;
 }
