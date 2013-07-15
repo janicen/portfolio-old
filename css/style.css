@@ -91,7 +91,9 @@ li {
 }
 
 /* ---------- WORKS PAGE ---------- */
-#invisiblechildren .column1, #invisiblechildren .column2, #pavilionofliterature .column1, #pavilionofliterature .column2 {
+#invisiblechildren .column1, #invisiblechildren .column2, 
+#pavilionofliterature .column1, #pavilionofliterature .column2, 
+#ysclogo .column1, #ysclogo .column2 {
 	float: left;
 	padding: 0 1.5em;
 }
@@ -380,6 +382,15 @@ a.grey {
 	}
 
 	#pavilionofliterature .descriptionsright {
+		padding: 5em 0 0 4.8em;
+	}
+
+/* ---------- GRAPHICS: YSC LOGO ---------- */
+	#ysclogo .descriptionsleft {
+		padding: 5em 0 0 5em;
+	}
+
+	#ysclogo .descriptionsright {
 		padding: 5em 0 0 4.8em;
 	}
 
