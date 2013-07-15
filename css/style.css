@@ -279,7 +279,7 @@ a.grey {
 }
 
 	.aboutmedescriptions h2 {
-		padding-bottom: 1.5em;
+		padding-bottom: 1em;
 	}
 
 	.aboutmedescriptions p {
@@ -290,7 +290,7 @@ a.grey {
 .contact {
 	float: left;
 	clear: both;
-	margin-top: 1.2em;
+	margin-top: .5em;
 }
 
 	.contact ul li{
