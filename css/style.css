@@ -6,7 +6,7 @@
 
 	CSS file: Main Style
 
-	1.Base 2.Grid 3.Layout 4.Links
+	1.Base 2.Grid 3.Layout 4.Links 5.Index
 
 */
 
@@ -207,6 +207,46 @@ a {
 		color: #000000;
 	}
 
+/* ========== GRAYSCALE IMAGES ========== */
+
+/* Images starts grey */
+a.grey {
+	-webkit-filter: grayscale(100%);
+	-moz-filter: 	grayscale(100%);
+	-o-filter: 		grayscale(100%);
+	-ms-filter: 	grayscale(100%);
+		filter: 	grayscale(100%);
+
+	-webkit-transition: all 0.3s ease;
+	-moz-transition:	all 0.3s ease;
+	-o-transition: 		all 0.3s ease;
+	-ms-transition: 	all 0.3s ease;
+		transition: 	all 0.3s ease;
+	}
+
+	a.grey:hover {
+		-webkit-filter: grayscale(0%);
+		-moz-filter: 	grayscale(0%);
+		-o-filter: 		grayscale(0%);
+		-ms-filter:		grayscale(0%);
+			filter: 	grayscale(0%);
+	}
+
 /* ================================================================ 
 	LINKS END 
+================================================================  */
+
+
+
+/* ================================================================ 
+	INDEX START 
+================================================================  */
+
+/* ========== IMAGES ========== */
+#home .content img {
+	margin: 1em 0;
+}
+
+/* ================================================================ 
+	INDEX END 
 ================================================================  */
