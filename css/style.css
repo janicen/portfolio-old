@@ -350,6 +350,22 @@ a.grey {
 		margin-top: 1.5em;
 	}
 
+/* ========== VIDEOS ========== */
+
+/* =========================================================
+ * Video Responsive CSS Styles
+ * Based on code found here: http://amobil.se/2011/11/responsive-embeds/
+ * ========================================================= */
+
+.vimeoplayer video,
+.vimeoplayer iframe,
+.vimeoplayer object,
+.vimeoplayer embed {
+	position: absolute;
+	width: 55%;
+	height: 45%;
+}
+
 /* ========== CONTENT ========== */
 
 .descriptionsleft {
@@ -397,11 +413,11 @@ a.grey {
 
 /* ---------- INTERACTIONS: SIS ---------- */
 	#sis .descriptionsleft {
-		padding: 5em 0 0 5em;
+		padding: 20em 0 0 5em;
 	}
 
 	#sis .descriptionsright {
-		padding: 5em 0 0 4.8em;
+		padding: 20em 0 0 4.8em;
 	}
 
 /* ================================================================ 
