@@ -91,7 +91,7 @@ li {
 }
 
 /* ---------- WORKS PAGE ---------- */
-#invisiblechildren .column1, #invisiblechildren .column2 {
+#invisiblechildren .column1, #invisiblechildren .column2, #pavilionofliterature .column1, #pavilionofliterature .column2 {
 	float: left;
 	padding: 0 1.5em;
 }
@@ -338,35 +338,49 @@ a.grey {
 
 /* ========== IMAGES ========== */
 
-/* ---------- GRAPHICS: INVISIBLE CHILDREN ---------- */
-#invisiblechildren .images {
+.images {
 	overflow: hidden;
 	margin-top: 2em;
 }
 
+	.descriptionsright ul li {
+		margin-top: 1.5em;
+	}
+
 /* ========== CONTENT ========== */
 
-/* ---------- GRAPHICS: INVISIBLE CHILDREN ---------- */
-#invisiblechildren .descriptions1 {
+.descriptionsleft {
 	width: 15%;
 	float: left;
 	clear: both;
-	padding: 5em 0 0 8em;
 }
 
-#invisiblechildren .descriptions2 {
+.descriptionsright {
 	width: 70%;
 	float: left;
-	padding: 5em 0 0 2em;
 }
 
-	.descriptions1 p, .descriptions2 p{
-		font-size: 1.2em;
+	.descriptionsleft p, .descriptionsright p{
+		font-size: 1.3em;
 		padding-bottom: 1.5em;
 	}
 
-	.descriptions2 ul li {
-		margin-top: 1.5em;
+	/* ---------- GRAPHICS: INVISIBLE CHILDREN ---------- */
+	#invisiblechildren .descriptionsleft {
+		padding: 5em 0 0 5em;
+	}
+
+	#invisiblechildren .descriptionsright {
+		padding: 5em 0 0 4.8em;
+	}
+
+/* ---------- GRAPHICS: PAVILION OF LITERATURE ---------- */
+	#pavilionofliterature .descriptionsleft {
+		padding: 5em 0 0 5em;
+	}
+
+	#pavilionofliterature .descriptionsright {
+		padding: 5em 0 0 4.8em;
 	}
 
 /* ================================================================ 
