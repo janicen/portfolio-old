@@ -6,7 +6,7 @@
 
 	CSS file: Main Style
 
-	1.Base 2.Grid 3.Layout 4.Links 5.IndexPage 6.AboutPage
+	1.Base  2.Grid  3.Layout  4.Links  5.IndexPage  6.AboutPage  7.WorksPage
 
 */
 
@@ -41,6 +41,18 @@ h1, h2, h3, h4, h5, h6, p {
 		color: #5ECBF4;
 	}
 
+	h3 {
+		font-size: 1.6em;
+		font-weight: bold;
+		color: #000000;
+	}
+
+	h4 {
+		font-size: 1.2em;
+		font-weight: bold;
+		color: #000000;
+	}
+
 li {
 	list-style: none;
 }
@@ -63,17 +75,26 @@ li {
 }
 
 /* ========== COLUMNS ========== */
+
+/* ---------- INDEX PAGE ---------- */
 #home .column1, #home .column2, #home .column3 {
 	float: right;
 	padding-left: 3.5em;
 }
 
-	#about .column1, #about .column2, #about .column3, #about .column4 {
-		/*width: 25%;*/
-		float: right;
-		padding: 0 1.2em;
-		/*padding-left: 2.5em;*/
-	}
+/* ---------- ABOUT PAGE ---------- */
+#about .column1, #about .column2, #about .column3, #about .column4 {
+	/*width: 25%;*/
+	float: right;
+	padding: 0 1.2em;
+	/*padding-left: 2.5em;*/
+}
+
+/* ---------- WORKS PAGE ---------- */
+#invisiblechildren .column1, #invisiblechildren .column2 {
+	float: left;
+	padding: 0 1.5em;
+}
 
 /* ========== ROWS ========== */
 .graphics, .interactions, .products, .aboutme {
@@ -307,4 +328,47 @@ a.grey {
 
 /* ================================================================ 
 	ABOUT PAGE END 
+================================================================  */
+
+
+
+/* ================================================================ 
+	WORKS PAGE START 
+================================================================  */
+
+/* ========== IMAGES ========== */
+
+/* ---------- GRAPHICS: INVISIBLE CHILDREN ---------- */
+#invisiblechildren .images {
+	overflow: hidden;
+	margin-top: 2em;
+}
+
+/* ========== CONTENT ========== */
+
+/* ---------- GRAPHICS: INVISIBLE CHILDREN ---------- */
+#invisiblechildren .descriptions1 {
+	width: 15%;
+	float: left;
+	clear: both;
+	padding: 5em 0 0 8em;
+}
+
+#invisiblechildren .descriptions2 {
+	width: 70%;
+	float: left;
+	padding: 5em 0 0 2em;
+}
+
+	.descriptions1 p, .descriptions2 p{
+		font-size: 1.2em;
+		padding-bottom: 1.5em;
+	}
+
+	.descriptions2 ul li {
+		margin-top: 1.5em;
+	}
+
+/* ================================================================ 
+	WORKS PAGE END 
 ================================================================  */
