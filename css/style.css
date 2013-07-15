@@ -94,7 +94,8 @@ li {
 #invisiblechildren .column1, #invisiblechildren .column2, 
 #pavilionofliterature .column1, #pavilionofliterature .column2, 
 #ysclogo .column1, #ysclogo .column2,
-#sis .column1, #sis .column2 {
+#sis .column1, #sis .column2, 
+#airlog .column1, #airlog .column2 {
 	float: left;
 	padding: 0 1.5em;
 }
@@ -417,6 +418,15 @@ a.grey {
 	}
 
 	#sis .descriptionsright {
+		padding: 20em 0 0 4.8em;
+	}
+
+/* ---------- INTERACTIONS: AIRLOG ---------- */
+	#airlog .descriptionsleft {
+		padding: 20em 0 0 5em;
+	}
+
+	#airlog .descriptionsright {
 		padding: 20em 0 0 4.8em;
 	}
 
