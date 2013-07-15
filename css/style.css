@@ -95,7 +95,8 @@ li {
 #pavilionofliterature .column1, #pavilionofliterature .column2, 
 #ysclogo .column1, #ysclogo .column2,
 #sis .column1, #sis .column2, 
-#airlog .column1, #airlog .column2 {
+#airlog .column1, #airlog .column2,
+#pouch .column1, #pouch .column2 {
 	float: left;
 	padding: 0 1.5em;
 }
@@ -429,6 +430,16 @@ a.grey {
 	#airlog .descriptionsright {
 		padding: 20em 0 0 4.8em;
 	}
+
+/* ---------- INTERACTIONS: POUCH ---------- */
+	#pouch .descriptionsleft {
+		padding: 5em 0 0 5em;
+	}
+
+	#pouch .descriptionsright {
+		padding: 5em 0 0 4.8em;
+	}
+
 
 /* ================================================================ 
 	WORKS PAGE END 
