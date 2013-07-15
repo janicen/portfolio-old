@@ -96,7 +96,8 @@ li {
 #ysclogo .column1, #ysclogo .column2,
 #sis .column1, #sis .column2, 
 #airlog .column1, #airlog .column2,
-#pouch .column1, #pouch .column2 {
+#pouch .column1, #pouch .column2,
+#monsteropener .column1, #monsteropener .column2 {
 	float: left;
 	padding: 0 1.5em;
 }
@@ -440,6 +441,14 @@ a.grey {
 		padding: 5em 0 0 4.8em;
 	}
 
+/* ---------- PRODUCTS: MONSTER OPENER ---------- */
+	#monsteropener .descriptionsleft {
+		padding: 5em 0 0 5em;
+	}
+
+	#monsteropener .descriptionsright {
+		padding: 5em 0 0 4.8em;
+	}
 
 /* ================================================================ 
 	WORKS PAGE END 
