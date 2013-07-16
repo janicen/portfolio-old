@@ -383,6 +383,7 @@ a.grey {
 	position: absolute;
 	width: 55%;
 	height: 45%;
+	frameborder: 0;
 	border: 1.9px solid #5ECBF4;
 }
 
