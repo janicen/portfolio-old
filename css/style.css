@@ -373,6 +373,7 @@ a.grey {
 	position: absolute;
 	width: 55%;
 	height: 45%;
+	border: 1.9px solid #5ECBF4;
 }
 
 /* ========== CONTENT ========== */
