@@ -105,8 +105,7 @@ li {
 }
 
 /* ========== ROWS ========== */
-.graphics, .interactions, .products, .aboutme {
-/*	border: 1px solid orange;*/
+.graphics, .interactions, .products {
 	clear: both;
 }
 
@@ -469,7 +468,7 @@ a.grey {
 	#loricatuslumardeus .descriptionsright {
 		padding: 20em 0 0 4.8em;
 	}
-	
+
 /* ================================================================ 
 	WORKS PAGE END 
 ================================================================  */
