@@ -198,7 +198,9 @@ nav {
 }
 
 /* ========== IMAGES ========== */
-#invisiblechildren .column2 img, .descriptionsright img {
+.descriptionsright img, 
+#invisiblechildren .column2 img, 
+#pavilionofliterature .column2 img {
 	border: 1.9px solid #5ECBF4;
 }
 
