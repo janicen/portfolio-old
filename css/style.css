@@ -201,7 +201,8 @@ nav {
 .descriptionsright img, 
 #invisiblechildren .column2 img, 
 #pavilionofliterature .column2 img,
-#ysclogo .column2 img {
+#ysclogo .column2 img, 
+#pouch .column2 img {
 	border: 1.9px solid #5ECBF4;
 }
 
