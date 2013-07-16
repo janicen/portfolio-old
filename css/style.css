@@ -135,6 +135,7 @@ header {
 	.logo img {
 		width: 30%;
 		height: auto;
+		border: none;
 	}
 
 /* ========== NAVBAR ========== */
@@ -197,7 +198,8 @@ nav {
 }
 
 /* ========== IMAGES ========== */
-img {
+#invisiblechildren .column2 img, .descriptionsright img {
+	border: 1.9px solid #5ECBF4;
 }
 
 /* ========== CONTENT ========== */
