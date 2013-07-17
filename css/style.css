@@ -370,6 +370,7 @@ a.grey {
 /* ========== IMAGES ========== */
 
 .images {
+	float: right;
 	overflow: hidden;
 	margin-top: 2em;
 }
