@@ -19,7 +19,6 @@ html, body {
 	font-size: 12px;
 	font-weight: 400px;
 	color: #000000;
-/*	background-color: #DAE6EA;*/
 	background-color: #DEE6EA;
 }
 
@@ -79,7 +78,6 @@ li {
 .container {
 	margin: 0px auto;
 	max-width: 960px;
-/*	border: 1px solid black;*/
 }
 
 /* ========== COLUMNS ========== */
@@ -135,7 +133,6 @@ header {
 
 	.logo {
 		width: 75%;
-		/*text-align: left;*/
 		float: left;
 		padding-top: 2em;
 	}
@@ -212,7 +209,8 @@ nav {
 #ysclogo .column2 img, 
 #pouch .column2 img, 
 #monsteropener .column2 img {
-	width: 100%;
+	/*width: 100%;*/
+	max-width: 675px;
 	height: auto;
 	border: 1.9px solid #5ECBF4;
 }
