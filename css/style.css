@@ -139,6 +139,7 @@ header {
 
 	.logo img {
 		width: 30%;
+		max-width: 258px;
 		height: auto;
 		border: none;
 	}
@@ -416,85 +417,36 @@ a.grey {
 		padding-bottom: 1.5em;
 	}
 
-	/* ---------- GRAPHICS: INVISIBLE CHILDREN ---------- */
-	#invisiblechildren .descriptionsleft {
-		padding: 5em 0 0 5em;
-	}
-
-	#invisiblechildren .descriptionsright {
-		padding: 5em 0 0 4.8em;
-	}
-
-/* ---------- GRAPHICS: PAVILION OF LITERATURE ---------- */
-	#pavilionofliterature .descriptionsleft {
-		padding: 5em 0 0 5em;
-	}
-
-	#pavilionofliterature .descriptionsright {
-		padding: 5em 0 0 4.8em;
-	}
-
-/* ---------- GRAPHICS: YSC LOGO ---------- */
-	#ysclogo .descriptionsleft {
-		padding: 5em 0 0 5em;
-	}
-
-	#ysclogo .descriptionsright {
-		padding: 5em 0 0 4.8em;
-	}
-
-/* ---------- INTERACTIONS: SIS ---------- */
-	#sis .descriptionsleft {
-		padding: 20em 0 0 5em;
-	}
-
-	#sis .descriptionsright {
-		padding: 20em 0 0 4.8em;
-	}
-
-/* ---------- INTERACTIONS: AIRLOG ---------- */
-	#airlog .descriptionsleft {
-		padding: 20em 0 0 5em;
-	}
-
-	#airlog .descriptionsright {
-		padding: 20em 0 0 4.8em;
-	}
-
-/* ---------- INTERACTIONS: POUCH ---------- */
-	#pouch .descriptionsleft {
-		padding: 5em 0 0 5em;
-	}
-
-	#pouch .descriptionsright {
-		padding: 5em 0 0 4.8em;
-	}
-
-/* ---------- PRODUCTS: MONSTER OPENER ---------- */
+	/* ---------- WORKS PAGE: WITH IMAGE BANNERS; ---------- */
+	#invisiblechildren .descriptionsleft, 
+	#pavilionofliterature .descriptionsleft, 
+	#ysclogo .descriptionsleft, 
+	#pouch .descriptionsleft,
 	#monsteropener .descriptionsleft {
-		padding: 5em 0 0 5em;
+		padding: 3.5em 0 0 5em;
 	}
 
+	#invisiblechildren .descriptionsright,
+	#pavilionofliterature .descriptionsright,
+	#ysclogo .descriptionsright,
+	#pouch .descriptionsright,
 	#monsteropener .descriptionsright {
-		padding: 5em 0 0 4.8em;
+		padding: 3.5em 0 0 4.8em;
 	}
 
-/* ---------- PRODUCTS: EMOCUBE ---------- */
-	#emocube .descriptionsleft {
-		padding: 20em 0 0 5em;
-	}
-
-	#emocube .descriptionsright {
-		padding: 20em 0 0 4.8em;
-	}
-
-/* ---------- PRODUCTS: LORICATUS LUMARDEUS ---------- */
+/* ---------- WORKS PAGE: WITH VIDEO BANNERS; ---------- */
+	#sis .descriptionsleft, 
+	#airlog .descriptionsleft,
+	#emocube .descriptionsleft,
 	#loricatuslumardeus .descriptionsleft {
-		padding: 20em 0 0 5em;
+		padding: 17em 0 0 5em;
 	}
 
+	#sis .descriptionsright,
+	#airlog .descriptionsright,
+	#emocube .descriptionsright,
 	#loricatuslumardeus .descriptionsright {
-		padding: 20em 0 0 4.8em;
+		padding: 17em 0 0 4.8em;
 	}
 
 /* ================================================================ 
