@@ -302,9 +302,14 @@ a.grey {
 ================================================================  */
 
 /* ========== IMAGES ========== */
-#home .content img {
-	margin: 1em 0;
+#home .images {
+	float: right;
+	margin: 0;
 }
+
+	#home .content img {
+		margin: 1em 0;
+	}
 
 /* ================================================================ 
 	INDEX PAGE END 
