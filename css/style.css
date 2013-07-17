@@ -215,6 +215,10 @@ nav {
 	border: 1.9px solid #5ECBF4;
 }
 
+	.icons {
+		padding-top: .5em;
+	}
+
 /* ========== CONTENT ========== */
 .content {
 	clear: both;
