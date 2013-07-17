@@ -212,6 +212,8 @@ nav {
 #ysclogo .column2 img, 
 #pouch .column2 img, 
 #monsteropener .column2 img {
+	width: 100%;
+	height: auto;
 	border: 1.9px solid #5ECBF4;
 }
 
@@ -370,7 +372,7 @@ a.grey {
 /* ========== IMAGES ========== */
 
 .images {
-	float: right;
+	float: left;
 	overflow: hidden;
 	margin-top: 2em;
 }
@@ -390,6 +392,7 @@ a.grey {
 .vimeoplayer iframe,
 .vimeoplayer object,
 .vimeoplayer embed {
+	float: right;
 	position: absolute;
 	width: 55%;
 	height: 45%;
