@@ -86,14 +86,14 @@ li {
 
 /* ---------- INDEX PAGE ---------- */
 #home .column1, #home .column2, #home .column3 {
-	float: right;
+	float: left;
 	padding-left: 3.5em;
 }
 
 /* ---------- ABOUT PAGE ---------- */
 #about .column1, #about .column2, #about .column3, #about .column4 {
 	/*width: 25%;*/
-	float: right;
+	float: left;
 	padding: 0 1.2em;
 	/*padding-left: 2.5em;*/
 }
