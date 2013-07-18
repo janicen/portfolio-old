@@ -76,7 +76,8 @@ li {
 
 /* ========== CONTAINER ========== */
 .container {
-	margin: 0px auto;
+	margin: 0em auto;
+	padding: 1em;
 	max-width: 960px;
 }
 
@@ -223,8 +224,8 @@ nav {
 #ysclogo .column2 img, 
 #pouch .column2 img, 
 #monsteropener .column2 img {
-	/*width: 100%;*/
-	/*max-width: 675px;*/
+	max-width: 100%;
+	width: auto;
 	height: auto;
 	border: 1.9px solid #5ECBF4;
 }
@@ -390,6 +391,7 @@ a.grey {
 }
 
 	.descriptionsright ul li {
+		/*min-width: 675px;*/
 		margin-top: 1.5em;
 	}
 
