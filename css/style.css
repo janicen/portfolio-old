@@ -96,19 +96,32 @@ li {
 	/*padding-left: 2.5em;*/
 }
 
-/* ---------- WORKS PAGE ---------- */
+/* ---------- WORKS PAGE: IMAGES ---------- */
 #invisiblechildren .column1, #invisiblechildren .column2, 
 #pavilionofliterature .column1, #pavilionofliterature .column2, 
 #ysclogo .column1, #ysclogo .column2,
-#sis .column1, #sis .column2, 
-#airlog .column1, #airlog .column2,
+#sis .column1, /*#sis .column2,*/ 
+#airlog .column1, /*#airlog .column2,*/
 #pouch .column1, #pouch .column2,
-#loricatuslumardeus .column1, #loricatuslumardeus .column2,
+#loricatuslumardeus .column1, /*#loricatuslumardeus .column2,*/
 #monsteropener .column1, #monsteropener .column2,
-#emocube .column1, #emocube .column2 {
+#emocube .column1/*, #emocube .column2 */{
 	float: left;
 	padding: 0 1.5em;
 }
+
+/* ---------- WORKS PAGE: VIDEOS ---------- */
+
+	#sis .column2,
+	#airlog .column2,
+	#loricatuslumardeus .column2,
+	#emocube .column2 {
+		max-width: 70%;
+		width: 675px;
+		height: auto;
+		float: left;
+		padding: 0 1.5em;
+	}
 
 /* ========== ROWS ========== */
 .graphics, .interactions, .products {
@@ -387,66 +400,56 @@ a.grey {
  * Based on code found here: http://amobil.se/2011/11/responsive-embeds/
  * ========================================================= */
 
-.vimeoplayer video,
-.vimeoplayer iframe,
-.vimeoplayer object,
-.vimeoplayer embed {
+/*.embed-container video,
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
 	float: right;
 	position: absolute;
 	width: 55%;
 	height: 45%;
 	frameborder: 0;
 	border: 1.9px solid #5ECBF4;
+}*/
+
+
+.video {
+	position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border: 1.9px solid #5ECBF4;
 }
+
+	.video iframe,
+	.video object,
+	.video embed {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	    border: none;
+	}
 
 /* ========== CONTENT ========== */
 
 .descriptionsleft {
 	width: 15%;
 	float: left;
+	padding: 3.5em 0 0 5em;
 	clear: both;
 }
 
 .descriptionsright {
 	width: 70%;
 	float: left;
+	padding: 3.5em 0 0 5em;
 }
 
 	.descriptionsleft p, .descriptionsright p{
 		font-size: 1.3em;
 		padding-bottom: 1.5em;
-	}
-
-	/* ---------- WORKS PAGE: WITH IMAGE BANNERS; ---------- */
-	#invisiblechildren .descriptionsleft, 
-	#pavilionofliterature .descriptionsleft, 
-	#ysclogo .descriptionsleft, 
-	#pouch .descriptionsleft,
-	#monsteropener .descriptionsleft {
-		padding: 3.5em 0 0 5em;
-	}
-
-	#invisiblechildren .descriptionsright,
-	#pavilionofliterature .descriptionsright,
-	#ysclogo .descriptionsright,
-	#pouch .descriptionsright,
-	#monsteropener .descriptionsright {
-		padding: 3.5em 0 0 4.8em;
-	}
-
-/* ---------- WORKS PAGE: WITH VIDEO BANNERS; ---------- */
-	#sis .descriptionsleft, 
-	#airlog .descriptionsleft,
-	#emocube .descriptionsleft,
-	#loricatuslumardeus .descriptionsleft {
-		padding: 17em 0 0 5em;
-	}
-
-	#sis .descriptionsright,
-	#airlog .descriptionsright,
-	#emocube .descriptionsright,
-	#loricatuslumardeus .descriptionsright {
-		padding: 17em 0 0 4.8em;
 	}
 
 /* ================================================================ 
