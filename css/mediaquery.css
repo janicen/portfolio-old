@@ -6,6 +6,8 @@
 
 	CSS: Mobile Query
 
+	1.Base 2.Grid
+
 */
 
 /*	<!-- Make mobile view visible -->
@@ -24,7 +26,7 @@ html, body {
 
 
 /* ================================================================ 
-	BASE FILE START 
+	BASE START 
 ================================================================  */
 
 	/* ========== FONT ========== */	
@@ -40,7 +42,7 @@ html, body {
 	}
 
 	h4 {
-		font-size: 1.2em;
+		font-size: 1.3em;
 		font-weight: bold;
 		color: #000000;
 	}
@@ -54,5 +56,137 @@ html, body {
 	}
 
 /* ================================================================ 
-	BASE FILE END
+	BASE END
+================================================================  */
+
+
+
+/* ================================================================ 
+	GRID START
+================================================================  */
+
+/* ========== COLUMNS ========== */
+
+/* ---------- INDEX PAGE ---------- */
+#home .column1_mobile, #home .column2_mobile, #home .column3_mobile {
+	display: block;
+	text-align: center;
+	clear: both;
+}
+
+	/* DESKTOP DISPLAY NONE */
+	#home .column1, #home .column2, #home .column3 {
+		display: none;
+	}
+
+/* ---------- ABOUT PAGE ---------- */
+#about .column1, #about .column2, #about .column3, #about .column4 {
+	/*width: 25%;*/
+	float: left;
+	padding: 0 1.2em;
+	/*padding-left: 2.5em;*/
+}
+
+/* ---------- WORKS PAGE: IMAGES ---------- */
+#invisiblechildren .column1, #invisiblechildren .column2, 
+#pavilionofliterature .column1, #pavilionofliterature .column2, 
+#ysclogo .column1, #ysclogo .column2,
+#sis .column1, /*#sis .column2,*/ 
+#airlog .column1, /*#airlog .column2,*/
+#pouch .column1, #pouch .column2,
+#loricatuslumardeus .column1, /*#loricatuslumardeus .column2,*/
+#monsteropener .column1, #monsteropener .column2,
+#emocube .column1/*, #emocube .column2 */{
+	float: left;
+	padding: 0 1.5em;
+}
+
+/* ---------- WORKS PAGE: VIDEOS ---------- */
+
+	#sis .column2,
+	#airlog .column2,
+	#loricatuslumardeus .column2,
+	#emocube .column2 {
+		max-width: 70%;
+		width: 675px;
+		height: auto;
+		float: left;
+		padding: 0 1.5em;
+	}
+
+/* ========== ROWS ========== */
+.graphics, .interactions, .products {
+	clear: both;
+}
+
+/* ================================================================ 
+	GRID END
+================================================================  */
+
+
+
+/* ================================================================ 
+	LAYOUT START
+================================================================  */
+
+/* ========== HEADER ========== */
+
+.logo img {
+	width: 50%;
+	max-width: 258px;
+	height: auto;
+}
+
+/* ========== NAVBAR ========== */
+
+nav ul li {
+	display: block;
+	font-size: 2em;
+	margin-bottom: .2em;
+}
+
+/* ========== FOOTER ========== */
+
+	footer p {
+		font-size: 1.3em;
+	}
+
+	.footerwrapper ul {
+		margin-top: -3.5em;
+	}
+
+/* ========== IMAGES ========== */
+.descriptionsright img, 
+#invisiblechildren .column2 img, 
+#pavilionofliterature .column2 img,
+#ysclogo .column2 img, 
+#pouch .column2 img, 
+#monsteropener .column2 img {
+	max-width: 100%;
+	width: auto;
+	height: auto;
+	border: 1.9px solid #5ECBF4;
+}
+
+	.icons {
+		padding-top: .5em;
+	}
+
+/* ========== CONTENT ========== */
+.content {
+	clear: both;
+	overflow: hidden;
+}
+
+.title {
+	overflow: hidden;
+}
+
+.text {
+	float: left;
+	padding-right: 1.5em;
+}
+
+/* ================================================================ 
+	LAYOUT END
 ================================================================  */
