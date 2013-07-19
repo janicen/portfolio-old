@@ -90,6 +90,11 @@ li {
 	padding-left: 3.5em;
 }
 
+	/* MOBILE DISPLAY NONE */
+	#home .column1_mobile, #home .column2_mobile, #home .column3_mobile {
+		display: none;
+	}
+
 /* ---------- ABOUT PAGE ---------- */
 #about .column1, #about .column2, #about .column3, #about .column4 {
 	/*width: 25%;*/
@@ -153,8 +158,8 @@ header {
 	}
 
 	.logo img {
-		width: 30%;
-		max-width: 258px;
+		max-width: 30%;
+		width: 258px;
 		height: auto;
 		border: none;
 	}
