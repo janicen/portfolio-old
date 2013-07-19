@@ -199,7 +199,7 @@ nav {
 
 /* ========== FOOTER ========== */
 .footerwrapper {
-	text-align: center;
+	text-align: left;
 	padding-top: 1em;
 	margin-top: 3em;
 	border-top: 1px solid black;
@@ -209,6 +209,18 @@ nav {
 		font-size: 1.2em;
 		padding-bottom: 1em;
 	}
+
+	.footerwrapper ul {
+		float: right;
+		overflow: hidden;
+		margin-top: -3em;
+	}
+
+		.footerwrapper ul li {
+			float: left;
+			display: inline;
+			padding-left: 1.5em;
+		}
 
 /* ========== WRAPPER ========== */
 .wrapper {
