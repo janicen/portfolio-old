@@ -6,7 +6,7 @@
 
 	CSS: Mobile Query
 
-	1.Base 2.Grid
+	1.Base 2.Grid 3.Layout 4.IndexPage
 
 */
 
@@ -132,16 +132,27 @@ html, body {
 /* ========== HEADER ========== */
 
 .logo img {
-	width: 50%;
-	max-width: 258px;
+	max-width: 70%;
+	width: 258px;
 	height: auto;
 }
 
+
 /* ========== NAVBAR ========== */
+
+nav ul {
+	width: 35%;
+	/*max-width: 100%;
+	width: auto;*/
+	/*margin-top: -6.2em;*/
+	/*margin-top: -7em;*/
+	margin-top: -9em;
+}
 
 nav ul li {
 	display: block;
 	font-size: 2em;
+	padding-left: .5em;
 	margin-bottom: .2em;
 }
 
@@ -190,3 +201,27 @@ nav ul li {
 /* ================================================================ 
 	LAYOUT END
 ================================================================  */
+
+
+
+/* ================================================================ 
+	INDEX PAGE START 
+================================================================  */
+
+/* ========== IMAGES ========== */
+#home .images {
+	width: 100%;
+}
+
+	#home .content img {
+		max-width: 100%;
+		width: 240px;
+		height: auto;
+		margin: 1em 0;
+	}
+
+/* ================================================================ 
+	INDEX PAGE END 
+================================================================  */
+
+}
