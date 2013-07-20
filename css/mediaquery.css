@@ -105,7 +105,7 @@ html, body {
 #sis .column1_mobile, /*#sis .column2,*/ 
 #airlog .column1_mobile, /*#airlog .column2,*/
 #pouch .column1_mobile, #pouch .column2,
-#loricatuslumardeus .column1, /*#loricatuslumardeus .column2,*/
+#loricatuslumardeus .column1_mobile, /*#loricatuslumardeus .column2,*/
 #monsteropener .column1, #monsteropener .column2,
 #emocube .column1/*, #emocube .column2 */{
 	display: block;
@@ -119,7 +119,8 @@ html, body {
 	#ysclogo .column1,
 	#sis .column1,
 	#airlog .column1,
-	#pouch .column1 {
+	#pouch .column1,
+	#loricatuslumardeus .column1 {
 		display: none;
 	}
 
