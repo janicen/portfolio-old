@@ -119,8 +119,13 @@ li {
 #monsteropener .column1, #monsteropener .column2,
 #emocube .column1/*, #emocube .column2 */{
 	float: left;
-	padding: 0 1.5em;
+	padding: 0 1.1em;
 }
+
+	/* MOBILE DISPLAY NONE */
+	#invisiblechildren .column1_mobile {
+		display: none;
+	}
 
 /* ---------- WORKS PAGE: VIDEOS ---------- */
 
@@ -137,6 +142,7 @@ li {
 
 /* ========== ROWS ========== */
 .graphics, .interactions, .products {
+	max-width: 100%;
 	clear: both;
 }
 
@@ -264,6 +270,7 @@ nav {
 .content {
 	clear: both;
 	overflow: hidden;
+	padding: .5em;
 }
 
 .title {
@@ -412,7 +419,6 @@ a.grey {
 /* ========== IMAGES ========== */
 
 .images {
-	/*width: 100%;*/
 	float: left;
 	overflow: hidden;
 	margin-top: 2em;
