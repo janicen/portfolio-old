@@ -100,7 +100,7 @@ html, body {
 
 /* ---------- WORKS PAGE: IMAGES ---------- */
 #invisiblechildren .column1_mobile, #invisiblechildren .column2, 
-#pavilionofliterature .column1, #pavilionofliterature .column2, 
+#pavilionofliterature .column1_mobile, #pavilionofliterature .column2, 
 #ysclogo .column1, #ysclogo .column2,
 #sis .column1, /*#sis .column2,*/ 
 #airlog .column1, /*#airlog .column2,*/
@@ -114,7 +114,8 @@ html, body {
 }
 
 	/* MOBILE DISPLAY NONE */
-	#invisiblechildren .column1 {
+	#invisiblechildren .column1,
+	#pavilionofliterature .column1 {
 		display: none;
 	}
 
