@@ -130,7 +130,8 @@ li {
 	#airlog .column1_mobile,
 	#pouch .column1_mobile,
 	#loricatuslumardeus .column1_mobile,
-	#monsteropener .column1_mobile {
+	#monsteropener .column1_mobile,
+	#emocube .column1_mobile {
 		display: none;
 	}
 
