@@ -6,7 +6,7 @@
 
 	CSS: Mobile Query
 
-	1.Base 2.Grid 3.Layout 4.IndexPage
+	1.Base 2.Grid 3.Layout 4.IndexPage 5.AboutPage
 
 */
 
@@ -80,12 +80,14 @@ html, body {
 	}
 
 /* ---------- ABOUT PAGE ---------- */
-#about .column1, #about .column2, #about .column3, #about .column4 {
-	/*width: 25%;*/
-	float: left;
-	padding: 0 1.2em;
-	/*padding-left: 2.5em;*/
+#about .column1_mobile, #about .column2_mobile, #about .column3_mobile, #about .column4_mobile {
+	display: block;
 }
+
+	/* DESKTOP DISPLAY NONE */
+	#about .column1, #about .column2, #about .column3, #about .column4 {
+		display: none;
+	}
 
 /* ---------- WORKS PAGE: IMAGES ---------- */
 #invisiblechildren .column1, #invisiblechildren .column2, 
@@ -141,12 +143,11 @@ html, body {
 /* ========== NAVBAR ========== */
 
 nav ul {
-	width: 35%;
+	width: 40%;
 	/*max-width: 100%;
 	width: auto;*/
 	/*margin-top: -6.2em;*/
-	/*margin-top: -7em;*/
-	margin-top: -9em;
+	margin-top: -7em;
 }
 
 nav ul li {
@@ -224,4 +225,38 @@ nav ul li {
 	INDEX PAGE END 
 ================================================================  */
 
+
+
+/* ================================================================ 
+	ABOUT PAGE START 
+================================================================  */
+
+/* ========== CONTENT ========== */
+.aboutmedescriptions {
+	width: 100%;
 }
+
+	.contact ul li{
+		padding-right: 1em;
+	}
+
+/* ========== IMAGES ========== */
+#about .images {
+	width: 100%;
+	float: right;
+	margin-top: 0;
+}
+
+	#about .images img {
+		max-width: 100%;
+		width: 240px;
+		height: auto;
+		margin: 1em 0;
+	}
+
+/* ================================================================ 
+	ABOUT PAGE END 
+================================================================  */
+
+}
+/* === MOBILE MEDIA QUERY END === */
