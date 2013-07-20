@@ -101,8 +101,8 @@ html, body {
 /* ---------- WORKS PAGE: IMAGES ---------- */
 #invisiblechildren .column1_mobile, #invisiblechildren .column2, 
 #pavilionofliterature .column1_mobile, #pavilionofliterature .column2, 
-#ysclogo .column1, #ysclogo .column2,
-#sis .column1, /*#sis .column2,*/ 
+#ysclogo .column1_mobile, #ysclogo .column2,
+#sis .column1_mobile, /*#sis .column2,*/ 
 #airlog .column1, /*#airlog .column2,*/
 #pouch .column1, #pouch .column2,
 #loricatuslumardeus .column1, /*#loricatuslumardeus .column2,*/
@@ -115,7 +115,9 @@ html, body {
 
 	/* MOBILE DISPLAY NONE */
 	#invisiblechildren .column1,
-	#pavilionofliterature .column1 {
+	#pavilionofliterature .column1,
+	#ysclogo .column1,
+	#sis .column1 {
 		display: none;
 	}
 
@@ -125,11 +127,9 @@ html, body {
 	#airlog .column2,
 	#loricatuslumardeus .column2,
 	#emocube .column2 {
-		max-width: 70%;
-		width: 675px;
+		max-width: 100%;
 		height: auto;
-		float: left;
-		padding: 0 1.5em;
+		padding: 0;
 	}
 
 /* ========== ROWS ========== */
@@ -183,19 +183,6 @@ nav ul li {
 		margin-top: -3.5em;
 	}
 
-/* ========== IMAGES ========== */
-.descriptionsright img, 
-#invisiblechildren .column2 img, 
-#pavilionofliterature .column2 img,
-#ysclogo .column2 img, 
-#pouch .column2 img, 
-#monsteropener .column2 img {
-	max-width: 99.5%;
-	width: auto;
-	height: auto;
-	border: 1.9px solid #5ECBF4;
-}
-
 	.icons {
 		padding-top: .5em;
 	}
@@ -203,7 +190,6 @@ nav ul li {
 /* ========== CONTENT ========== */
 .content {
 	padding: .2em;
-
 }
 
 .title {
@@ -219,7 +205,6 @@ nav ul li {
 .wrapper {
 	padding-top: 1.5em;
 	border-bottom: 1px solid black;
-	overflow: hidden;
 }
 
 /* ================================================================ 
@@ -236,13 +221,6 @@ nav ul li {
 #home .images {
 	width: 100%;
 }
-
-	#home .content img {
-		max-width: 100%;
-		width: 240px;
-		height: auto;
-		margin: 1em 0;
-	}
 
 /* ================================================================ 
 	INDEX PAGE END 
