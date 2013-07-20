@@ -147,7 +147,8 @@ li {
 
 /* ========== HEADER ========== */
 header {
-	margin-bottom: 5em;
+	width: 100%;
+	margin-bottom: 4em;
 	overflow: hidden;
 }
 
@@ -157,15 +158,16 @@ header {
 		padding-top: 2em;
 	}
 
-	.logo img {
+	/*.logo img {
 		max-width: 30%;
 		width: 258px;
 		height: auto;
 		border: none;
-	}
+	}*/
 
 /* ========== NAVBAR ========== */
 nav {
+	width: 100%;
 	text-align: right;
 }
 
@@ -189,9 +191,9 @@ nav {
 
 	/* short line */
 	nav ul {
-		width: 30%;
+		width: 70%;
 		float: right;
-		margin-top: -6em;
+		margin-top: -7.3em;
 	}
 
 	nav ul li {
@@ -260,6 +262,7 @@ nav {
 }
 
 .title {
+	width: 100%;
 	overflow: hidden;
 }
 
