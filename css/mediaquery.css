@@ -107,7 +107,7 @@ html, body {
 #pouch .column1_mobile, #pouch .column2,
 #loricatuslumardeus .column1_mobile, /*#loricatuslumardeus .column2,*/
 #monsteropener .column1_mobile, #monsteropener .column2,
-#emocube .column1/*, #emocube .column2 */{
+#emocube .column1_mobile /*, #emocube .column2 */{
 	display: block;
 	text-align: center;
 	padding: 0;
@@ -121,7 +121,8 @@ html, body {
 	#airlog .column1,
 	#pouch .column1,
 	#loricatuslumardeus .column1,
-	#monsteropener .column1 {
+	#monsteropener .column1,
+	#emocube .column1 {
 		display: none;
 	}
 
