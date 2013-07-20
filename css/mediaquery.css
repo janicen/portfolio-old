@@ -103,7 +103,7 @@ html, body {
 #pavilionofliterature .column1_mobile, #pavilionofliterature .column2, 
 #ysclogo .column1_mobile, #ysclogo .column2,
 #sis .column1_mobile, /*#sis .column2,*/ 
-#airlog .column1, /*#airlog .column2,*/
+#airlog .column1_mobile, /*#airlog .column2,*/
 #pouch .column1, #pouch .column2,
 #loricatuslumardeus .column1, /*#loricatuslumardeus .column2,*/
 #monsteropener .column1, #monsteropener .column2,
@@ -117,7 +117,8 @@ html, body {
 	#invisiblechildren .column1,
 	#pavilionofliterature .column1,
 	#ysclogo .column1,
-	#sis .column1 {
+	#sis .column1,
+	#airlog .column1 {
 		display: none;
 	}
 
