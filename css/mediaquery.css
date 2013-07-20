@@ -29,6 +29,10 @@ html, body {
 	BASE START 
 ================================================================  */
 
+.container {
+	padding: .5em;
+}
+
 	/* ========== FONT ========== */	
 	h1 {
 		font-size: 2em;
@@ -95,7 +99,7 @@ html, body {
 	}
 
 /* ---------- WORKS PAGE: IMAGES ---------- */
-#invisiblechildren .column1, #invisiblechildren .column2, 
+#invisiblechildren .column1_mobile, #invisiblechildren .column2, 
 #pavilionofliterature .column1, #pavilionofliterature .column2, 
 #ysclogo .column1, #ysclogo .column2,
 #sis .column1, /*#sis .column2,*/ 
@@ -104,9 +108,15 @@ html, body {
 #loricatuslumardeus .column1, /*#loricatuslumardeus .column2,*/
 #monsteropener .column1, #monsteropener .column2,
 #emocube .column1/*, #emocube .column2 */{
-	float: left;
-	padding: 0 1.5em;
+	display: block;
+	text-align: center;
+	padding: 0;
 }
+
+	/* MOBILE DISPLAY NONE */
+	#invisiblechildren .column1 {
+		display: none;
+	}
 
 /* ---------- WORKS PAGE: VIDEOS ---------- */
 
@@ -179,7 +189,7 @@ nav ul li {
 #ysclogo .column2 img, 
 #pouch .column2 img, 
 #monsteropener .column2 img {
-	max-width: 100%;
+	max-width: 99.5%;
 	width: auto;
 	height: auto;
 	border: 1.9px solid #5ECBF4;
@@ -191,8 +201,8 @@ nav ul li {
 
 /* ========== CONTENT ========== */
 .content {
-	clear: both;
-	overflow: hidden;
+	padding: .2em;
+
 }
 
 .title {
@@ -268,6 +278,78 @@ nav ul li {
 
 /* ================================================================ 
 	ABOUT PAGE END 
+================================================================  */
+
+
+
+/* ================================================================ 
+	WORKS PAGE START 
+================================================================  */
+
+/* ========== IMAGES ========== */
+
+.images {
+	float: left;
+	overflow: hidden;
+	margin-top: 2em;
+}
+
+/* ========== VIDEOS ========== */
+
+/* =========================================================
+ * Video Responsive CSS Styles
+ * Based on code found here: http://amobil.se/2011/11/responsive-embeds/
+ * ========================================================= */
+
+.video {
+	position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border: 1.9px solid #5ECBF4;
+}
+
+	.video iframe,
+	.video object,
+	.video embed {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	    border: none;
+	}
+
+/* ========== CONTENT ========== */
+
+.descriptionsleft {
+	/*text-align: center;*/
+	width: 100%;
+	padding: 1.5em 0;
+}
+
+.descriptionsright {
+	width: 100%;
+	float: left;
+	padding: 0;
+}
+
+	.descriptionsleft p, .descriptionsright p{
+		font-size: 1.3em;
+		padding-bottom: 1.5em;
+	}
+
+.moreworks {
+	margin-top: 3em;
+}
+
+	.moreworks h4 {
+		padding-top: .5em;
+		font-size: 1.3em;
+	}
+
+/* ================================================================ 
+	WORKS PAGE END 
 ================================================================  */
 
 }
