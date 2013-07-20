@@ -123,7 +123,8 @@ li {
 }
 
 	/* MOBILE DISPLAY NONE */
-	#invisiblechildren .column1_mobile {
+	#invisiblechildren .column1_mobile,
+	#pavilionofliterature .column1_mobile {
 		display: none;
 	}
 
