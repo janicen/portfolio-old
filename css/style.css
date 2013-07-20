@@ -124,7 +124,9 @@ li {
 
 	/* MOBILE DISPLAY NONE */
 	#invisiblechildren .column1_mobile,
-	#pavilionofliterature .column1_mobile {
+	#pavilionofliterature .column1_mobile,
+	#ysclogo .column1_mobile,
+	#sis .column1_mobile {
 		display: none;
 	}
 
@@ -251,15 +253,19 @@ nav {
 }
 
 /* ========== IMAGES ========== */
+.content img {
+	max-width: 100%;
+	/*width: 240px;*/
+	height: auto;
+	margin: 1em 0;
+}
+
 .descriptionsright img, 
 #invisiblechildren .column2 img, 
 #pavilionofliterature .column2 img,
 #ysclogo .column2 img, 
 #pouch .column2 img, 
 #monsteropener .column2 img {
-	max-width: 100%;
-	width: auto;
-	height: auto;
 	border: 1.9px solid #5ECBF4;
 }
 
