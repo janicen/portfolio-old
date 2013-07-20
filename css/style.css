@@ -126,7 +126,8 @@ li {
 	#invisiblechildren .column1_mobile,
 	#pavilionofliterature .column1_mobile,
 	#ysclogo .column1_mobile,
-	#sis .column1_mobile {
+	#sis .column1_mobile,
+	#airlog .column1_mobile {
 		display: none;
 	}
 
