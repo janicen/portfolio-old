@@ -103,6 +103,11 @@ li {
 	/*padding-left: 2.5em;*/
 }
 
+	/* MOBILE DISPLAY NONE */
+	#about .column1_mobile, #about .column2_mobile, #about .column3_mobile, #about .column4_mobile {
+		display: none;
+	}
+
 /* ---------- WORKS PAGE: IMAGES ---------- */
 #invisiblechildren .column1, #invisiblechildren .column2, 
 #pavilionofliterature .column1, #pavilionofliterature .column2, 
