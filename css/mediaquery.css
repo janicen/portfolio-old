@@ -104,7 +104,7 @@ html, body {
 #ysclogo .column1_mobile, #ysclogo .column2,
 #sis .column1_mobile, /*#sis .column2,*/ 
 #airlog .column1_mobile, /*#airlog .column2,*/
-#pouch .column1, #pouch .column2,
+#pouch .column1_mobile, #pouch .column2,
 #loricatuslumardeus .column1, /*#loricatuslumardeus .column2,*/
 #monsteropener .column1, #monsteropener .column2,
 #emocube .column1/*, #emocube .column2 */{
@@ -118,7 +118,8 @@ html, body {
 	#pavilionofliterature .column1,
 	#ysclogo .column1,
 	#sis .column1,
-	#airlog .column1 {
+	#airlog .column1,
+	#pouch .column1 {
 		display: none;
 	}
 
@@ -206,6 +207,18 @@ nav ul li {
 .wrapper {
 	padding-top: 1.5em;
 	border-bottom: 1px solid black;
+}
+
+.descriptionsright img, 
+#invisiblechildren .column2 img, 
+#pavilionofliterature .column2 img,
+#ysclogo .column2 img, 
+#pouch .column2 img, 
+#monsteropener .column2 img {
+	max-width: 99.5%;
+	width: auto;
+	height: auto;
+	border: 1.9px solid #5ECBF4;
 }
 
 /* ================================================================ 
