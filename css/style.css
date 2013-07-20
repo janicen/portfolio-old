@@ -128,7 +128,8 @@ li {
 	#ysclogo .column1_mobile,
 	#sis .column1_mobile,
 	#airlog .column1_mobile,
-	#pouch .column1_mobile {
+	#pouch .column1_mobile,
+	#loricatuslumardeus .column1_mobile {
 		display: none;
 	}
 
