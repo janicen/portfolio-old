@@ -22,7 +22,7 @@
 
 html, body {
 	background-size: 100%;
-	background-color: orange;
+	/*background-color: orange;*/
 }
 
 /* ================================================================ 
@@ -89,7 +89,8 @@ html, body {
 	#airlog .column2,
 	#pouch .column2, 
 	#loricatuslumardeus .column2,
-	#monsteropener .column2 {
+	#monsteropener .column2,
+	#emocube .column2 {
 		width: 68%;
 		height: auto;
 		padding: 0 0 0 1.5em;
