@@ -6,7 +6,8 @@
 
 	CSS: Mobile Query
 
-	1.Base 2.Grid 3.Layout 4.IndexPage 5.AboutPage
+	Tablet: 1.Grid 3.Layout 4.IndexPage 5.AboutPage
+	Mobile: 1.Base 2.Grid 3.Layout 4.IndexPage 5.AboutPage
 
 */
 
@@ -15,6 +16,160 @@
 
 /*	<!-- Media Query: Mobile  -->
 	<link rel="stylesheet" media="(max-width: 640px)" type="text/css" href="./css/mobile.css" />*/
+
+/* === TABLET MEDIA QUERY START === */
+@media only screen and (min-width: 641px) and (max-width: 1000px) {
+
+html, body {
+	background-size: 100%;
+	background-color: orange;
+}
+
+/* ================================================================ 
+	GRID START
+================================================================  */
+
+/* ========== COLUMNS ========== */
+
+/* ---------- INDEX PAGE ---------- */
+#home .column1, #home .column2, #home .column3 {
+	width: 31.5%;
+	padding: .5em;
+	margin: 0;
+	/*padding-right: .5em;*/
+}
+
+/* ---------- ABOUT PAGE ---------- */
+#about .column1, #about .column2, #about .column3, #about .column4 {
+}
+
+/* ---------- WORKS PAGE: IMAGES ---------- */
+#invisiblechildren .column1, #invisiblechildren .column2, 
+#pavilionofliterature .column1, #pavilionofliterature .column2, 
+#ysclogo .column1, #ysclogo .column2,
+#sis .column1, /*#sis .column2,*/ 
+#airlog .column1, /*#airlog .column2,*/
+#pouch .column1, #pouch .column2,
+#loricatuslumardeus .column1, /*#loricatuslumardeus .column2,*/
+#monsteropener .column1, #monsteropener .column2,
+#emocube .column1 /*, #emocube .column2 */{
+}
+
+/* ---------- WORKS PAGE: VIDEOS ---------- */
+
+	#sis .column2,
+	#airlog .column2,
+	#loricatuslumardeus .column2,
+	#emocube .column2 {
+		max-width: 100%;
+		height: auto;
+		padding: 0;
+	}
+
+/* ========== ROWS ========== */
+.graphics, .interactions, .products {
+	clear: both;
+}
+
+/* ================================================================ 
+	GRID END
+================================================================  */
+
+
+/* ================================================================ 
+	LAYOUT START
+================================================================  */
+
+/* ========== HEADER ========== */
+
+.logo img {
+	max-width: 70%;
+	width: 258px;
+	height: auto;
+}
+
+
+/* ========== NAVBAR ========== */
+
+nav ul {
+	width: 40%;
+	/*max-width: 100%;
+	width: auto;*/
+	/*margin-top: -6.2em;*/
+	margin-top: -7em;
+}
+
+nav ul li {
+	display: block;
+	font-size: 2em;
+	padding-left: .5em;
+	margin-bottom: .2em;
+}
+
+/* ========== FOOTER ========== */
+
+	footer p {
+		font-size: 1.3em;
+	}
+
+	.footerwrapper ul {
+		margin-top: -3.5em;
+	}
+
+/* ========== CONTENT ========== */
+.content {
+	padding: .2em;
+}
+
+.title {
+	overflow: hidden;
+}
+
+.text {
+	float: left;
+	padding: .3em;
+
+}
+
+/* ========== WRAPPER ========== */
+.wrapper {
+	padding-top: 1.8em;
+}
+
+.descriptionsright img, 
+#invisiblechildren .column2 img, 
+#pavilionofliterature .column2 img,
+#ysclogo .column2 img, 
+#pouch .column2 img, 
+#monsteropener .column2 img {
+	max-width: 99.5%;
+	width: auto;
+	height: auto;
+	border: 1.9px solid #5ECBF4;
+}
+
+/* ================================================================ 
+	LAYOUT END
+================================================================  */
+
+
+/* ================================================================ 
+	INDEX PAGE START 
+================================================================  */
+
+/* ========== IMAGES ========== */
+#home .images {
+	width: 100%;
+	border: 1px solid yellow;
+}
+
+/* ================================================================ 
+	INDEX PAGE END 
+================================================================  */
+
+}
+/* === TABLET MEDIA QUERY END === */
+
 
 /* === MOBILE MEDIA QUERY START === */
 @media only screen and (max-width: 640px) {
