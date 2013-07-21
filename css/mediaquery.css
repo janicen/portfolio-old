@@ -85,9 +85,11 @@ html, body {
 	#invisiblechildren .column2,
 	#pavilionofliterature .column2, 
 	#ysclogo .column2,
+	#sis .column2,
 	#pouch .column2, 
 	#monsteropener .column2 {
 		width: 68%;
+		height: auto;
 		padding: 0 0 0 1.5em;
 	}
 
@@ -106,14 +108,14 @@ html, body {
 
 /* ---------- WORKS PAGE: VIDEOS ---------- */
 
-	#sis .column2,
+/*	#sis .column2,
 	#airlog .column2,
 	#loricatuslumardeus .column2,
 	#emocube .column2 {
-		max-width: 100%;
+		max-width: 70%;
 		height: auto;
-		padding: 0;
-	}
+		padding: 0 0 0 1.5em;
+	}*/
 
 /* ========== ROWS ========== */
 .graphics, .interactions, .products {
