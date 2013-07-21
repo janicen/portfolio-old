@@ -56,14 +56,6 @@ html, body {
 		color: #000000;
 	}
 
-	h5 {
-		font-size: 1.3em;
-		text-align: center;
-		/*color: #5ECBF4;*/
-		color: #000000;
-		padding: .5em;
-	}
-
 /* ================================================================ 
 	BASE END
 ================================================================  */
@@ -188,10 +180,6 @@ nav ul li {
 		margin-top: -3.5em;
 	}
 
-	.icons {
-		padding-top: .5em;
-	}
-
 /* ========== CONTENT ========== */
 .content {
 	padding: .2em;
@@ -203,13 +191,13 @@ nav ul li {
 
 .text {
 	float: left;
-	padding-right: 1.5em;
+	padding: .3em;
+
 }
 
 /* ========== WRAPPER ========== */
 .wrapper {
-	padding-top: 1.5em;
-	border-bottom: 1px solid black;
+	padding-top: 1.8em;
 }
 
 .descriptionsright img, 
