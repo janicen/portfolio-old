@@ -73,7 +73,7 @@ html, body {
 #sis .column1_tablet, /*#sis .column2,*/ 
 #airlog .column1_tablet, /*#airlog .column2,*/
 #pouch .column1_tablet, 
-#loricatuslumardeus_tablet .column1, /*#loricatuslumardeus .column2,*/
+#loricatuslumardeus .column1_tablet, /*#loricatuslumardeus .column2,*/
 #monsteropener .column1_tablet, 
 #emocube .column1_tablet /*, #emocube .column2 */{
 	width: 27%;
@@ -88,6 +88,7 @@ html, body {
 	#sis .column2,
 	#airlog .column2,
 	#pouch .column2, 
+	#loricatuslumardeus .column2,
 	#monsteropener .column2 {
 		width: 68%;
 		height: auto;
