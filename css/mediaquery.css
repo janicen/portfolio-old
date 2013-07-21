@@ -67,16 +67,42 @@ html, body {
 }
 
 /* ---------- WORKS PAGE: IMAGES ---------- */
-#invisiblechildren .column1, #invisiblechildren .column2, 
-#pavilionofliterature .column1, #pavilionofliterature .column2, 
-#ysclogo .column1, #ysclogo .column2,
-#sis .column1, /*#sis .column2,*/ 
-#airlog .column1, /*#airlog .column2,*/
-#pouch .column1, #pouch .column2,
-#loricatuslumardeus .column1, /*#loricatuslumardeus .column2,*/
-#monsteropener .column1, #monsteropener .column2,
-#emocube .column1 /*, #emocube .column2 */{
+#invisiblechildren .column1_tablet,  
+#pavilionofliterature .column1_tablet, 
+#ysclogo .column1_tablet, 
+#sis .column1_tablet, /*#sis .column2,*/ 
+#airlog .column1_tablet, /*#airlog .column2,*/
+#pouch .column1_tablet, 
+#loricatuslumardeus_tablet .column1, /*#loricatuslumardeus .column2,*/
+#monsteropener .column1_tablet, 
+#emocube .column1_tablet /*, #emocube .column2 */{
+	width: 27%;
+	float: left;
+	display: inline-block;
+	text-align: center;
 }
+
+	#invisiblechildren .column2,
+	#pavilionofliterature .column2, 
+	#ysclogo .column2,
+	#pouch .column2, 
+	#monsteropener .column2 {
+		width: 68%;
+		padding: 0 0 0 1.5em;
+	}
+
+	/* DESKTOP DISPLAY NONE */
+	#invisiblechildren .column1,
+	#pavilionofliterature .column1,
+	#ysclogo .column1,
+	#sis .column1,
+	#airlog .column1,
+	#pouch .column1,
+	#loricatuslumardeus .column1,
+	#monsteropener .column1,
+	#emocube .column1 {
+		display: none;
+	}
 
 /* ---------- WORKS PAGE: VIDEOS ---------- */
 
@@ -190,6 +216,76 @@ html, body {
 ================================================================  */
 
 
+
+/* ================================================================ 
+	WORKS PAGE START 
+================================================================  */
+
+/* ========== IMAGES ========== */
+
+.images {
+	float: left;
+	overflow: hidden;
+	margin-top: 2em;
+}
+
+/* ========== VIDEOS ========== */
+
+/* =========================================================
+ * Video Responsive CSS Styles
+ * Based on code found here: http://amobil.se/2011/11/responsive-embeds/
+ * ========================================================= */
+
+.video {
+	position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border: 1.9px solid #5ECBF4;
+}
+
+	.video iframe,
+	.video object,
+	.video embed {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	    border: none;
+	}
+
+/* ========== CONTENT ========== */
+
+.descriptionsleft {
+	width: 27%;
+	padding: 3.5em 0 0 1.2em;
+}
+
+.descriptionsright {
+	width: 68%;
+	padding: 3.5em 0 0 0;
+}
+
+	.descriptionsleft p, .descriptionsright p{
+		font-size: 1.3em;
+		padding-bottom: 1.5em;
+	}
+
+.moreworks {
+	margin-top: 3em;
+}
+
+	.moreworks h4 {
+		padding-top: .5em;
+		font-size: 1.3em;
+	}
+
+/* ================================================================ 
+	WORKS PAGE END 
+================================================================  */
+
+
 }
 /* === TABLET MEDIA QUERY END === */
 
@@ -286,7 +382,7 @@ html, body {
 	padding: 0;
 }
 
-	/* MOBILE DISPLAY NONE */
+	/* DESKTOP DISPLAY NONE */
 	#invisiblechildren .column1,
 	#pavilionofliterature .column1,
 	#ysclogo .column1,
