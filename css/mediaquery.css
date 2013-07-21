@@ -32,12 +32,17 @@ html, body {
 /* ========== COLUMNS ========== */
 
 /* ---------- INDEX PAGE ---------- */
-#home .column1, #home .column2, #home .column3 {
+#home .column1_tablet, #home .column2_tablet, #home .column3_tablet {
+	display: inline-block;
+	text-align: center;
 	width: 31.5%;
-	padding: .5em;
-	margin: 0;
-	/*padding-right: .5em;*/
+	padding: .2em;
 }
+
+	/* DESKOP DISPLAY NONE */
+	#home .column1, #home .column2, #home .column3 {
+		display: none;
+	}
 
 /* ---------- ABOUT PAGE ---------- */
 #about .column1, #about .column2, #about .column3, #about .column4 {
@@ -92,17 +97,16 @@ html, body {
 /* ========== NAVBAR ========== */
 
 nav ul {
-	width: 40%;
+	width: 28%;
 	/*max-width: 100%;
 	width: auto;*/
 	/*margin-top: -6.2em;*/
-	margin-top: -7em;
+	margin-top: -8.3em;
 }
 
 nav ul li {
 	display: block;
 	font-size: 2em;
-	padding-left: .5em;
 	margin-bottom: .2em;
 }
 
@@ -160,7 +164,6 @@ nav ul li {
 /* ========== IMAGES ========== */
 #home .images {
 	width: 100%;
-	border: 1px solid yellow;
 }
 
 /* ================================================================ 
