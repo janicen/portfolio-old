@@ -90,6 +90,11 @@ li {
 	padding-left: 3.5em;
 }
 
+	/* TABLET DISPLAY NONE */
+	#home .column1_tablet, #home .column2_tablet, #home .column3_tablet {
+		display: none;
+	}
+
 	/* MOBILE DISPLAY NONE */
 	#home .column1_mobile, #home .column2_mobile, #home .column3_mobile {
 		display: none;
