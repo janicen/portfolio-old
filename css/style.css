@@ -29,7 +29,8 @@ h1, h2, h3, h4, h5, h6, p {
 	padding: 0;
 }
 
-	/* ========== FONT ========== */	
+	/* ========== FONT ========== */
+
 	h1 {
 		font-size: 2.5em;
 		color: #5ECBF4;
@@ -75,6 +76,7 @@ li {
 ================================================================  */
 
 /* ========== CONTAINER ========== */
+
 .container {
 	margin: 0em auto;
 	padding: 1.5em;
@@ -84,6 +86,7 @@ li {
 /* ========== COLUMNS ========== */
 
 /* ---------- INDEX PAGE ---------- */
+
 #home .column1, #home .column2, #home .column3 {
 	/*width: 31.5%;*/
 	/*width: 28%;*/
@@ -103,6 +106,7 @@ li {
 	}
 
 /* ---------- ABOUT PAGE ---------- */
+
 #about .column1, #about .column2, #about .column3, #about .column4 {
 	width: 22%;
 	float: left;
@@ -116,6 +120,7 @@ li {
 	}
 
 /* ---------- WORKS PAGE: IMAGES ---------- */
+
 #invisiblechildren .column1, #invisiblechildren .column2, 
 #pavilionofliterature .column1, #pavilionofliterature .column2, 
 #ysclogo .column1, #ysclogo .column2,
@@ -169,6 +174,7 @@ li {
 	}
 
 /* ========== ROWS ========== */
+
 .graphics, .interactions, .products {
 	max-width: 100%;
 	clear: both;
@@ -245,6 +251,7 @@ nav {
 }
 
 /* ========== FOOTER ========== */
+
 .footerwrapper {
 	text-align: left;
 	padding-top: 1em;
@@ -271,6 +278,7 @@ nav {
 		}
 
 /* ========== WRAPPER ========== */
+
 .wrapper {
 	padding-top: 1.8em;
 	border-bottom: 1px solid black;
@@ -278,6 +286,7 @@ nav {
 }
 
 /* ========== IMAGES ========== */
+
 .content img {
 	max-width: 100%;
 	/*width: 240px;*/
@@ -299,6 +308,7 @@ nav {
 	}
 
 /* ========== CONTENT ========== */
+
 .content {
 	clear: both;
 	overflow: hidden;
@@ -326,6 +336,7 @@ nav {
 ================================================================  */
 
 /* ========== LINKS ========== */
+
 a {
 	color: #5ECBF4;
 	text-decoration: none;
@@ -383,6 +394,7 @@ a.grey {
 ================================================================  */
 
 /* ========== IMAGES ========== */
+
 #home .images {
 	float: right;
 	margin: 0;
@@ -432,6 +444,7 @@ a.grey {
 	}
 
 /* ========== IMAGES ========== */
+
 #about .images {
 	text-align: center;
 	overflow: hidden;
@@ -456,6 +469,8 @@ a.grey {
 	margin-top: 2em;
 }
 
+	/* ---------- WORKS IMAGES ---------- */
+
 	#invisiblechildren .images,
 	#pavilionofliterature .images,
 	#ysclogo .images,
@@ -479,19 +494,6 @@ a.grey {
  * Video Responsive CSS Styles
  * Based on code found here: http://amobil.se/2011/11/responsive-embeds/
  * ========================================================= */
-
-/*.embed-container video,
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
-	float: right;
-	position: absolute;
-	width: 55%;
-	height: 45%;
-	frameborder: 0;
-	border: 1.9px solid #5ECBF4;
-}*/
-
 
 .video {
 	position: relative;
