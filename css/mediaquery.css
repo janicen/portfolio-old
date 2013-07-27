@@ -412,11 +412,14 @@ nav ul li {
 /* ========== FOOTER ========== */
 
 	footer p {
+		/*width: 40%;*/
 		font-size: 1.3em;
 	}
 
 	.footerwrapper ul {
-		margin-top: -3.5em;
+		/*width: 40%;*/
+		/*margin-top: -3.5em;*/
+		margin-top: -3.7em;
 	}
 
 /* ========== IMAGES ========== */
