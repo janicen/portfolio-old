@@ -35,7 +35,7 @@ html, body {
 	/* ========== FONT ========== */	
 
 	h2 {
-		font-size: 1.8em;
+		font-size: 1.5em;
 		color: #5ECBF4;
 	}
 
@@ -242,13 +242,16 @@ html, body {
 /* ========== CONTENT ========== */
 
 .descriptionsleft {
-	width: 27%;
+	/*width: 27%;*/
+	width: 20%;
 	padding: 3.5em 0 0 1.2em;
 }
 
 .descriptionsright {
-	width: 68%;
-	padding: 3.5em 0 0 0;
+	/*width: 68%;*/
+	width: 70%;
+	/*padding: 3.5em 0 0 0;*/
+	padding: 3.5em 0 0 5.3em;
 }
 
 	.descriptionsleft p, .descriptionsright p{
