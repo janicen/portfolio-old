@@ -172,7 +172,7 @@ html, body {
 .text {
 	float: left;
 	padding: .3em;
-
+	margin-right: 1em;
 }
 
 /* ========== WRAPPER ========== */
@@ -290,10 +290,10 @@ html, body {
 
 	/* ========== FONT ========== */
 
-	h1 {
+/*	h1 {
 		font-size: 2em;
 		color: #5ECBF4;
-	}
+	}*/
 
 /* ================================================================ 
 	BASE END
@@ -424,6 +424,12 @@ nav ul li {
 		margin-top: -3.7em;
 	}
 
+/* ========== WRAPPER ========== */
+
+.wrapper {
+	padding-top: 1.8em;
+}
+
 /* ========== IMAGES ========== */
 
 .descriptionsright img, 
@@ -444,10 +450,13 @@ nav ul li {
 	padding: .2em;
 }
 
+.title {
+	padding-top: .8em;
+}
+
 .text {
 	float: left;
 	padding: .3em;
-
 }
 
 /* ================================================================ 
