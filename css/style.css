@@ -17,10 +17,11 @@
 html, body {
 	font-family: 'Istok Web', Helvetica, Arial, sans-serif;
 	font-size: 12px;
-	font-weight: 400;
+	/*font-weight: 400;*/
 	color: #000000;
 	/*background-color: #DEE6EA;*/
-	background-color: #E6EEF2;
+	/*background-color: #E9F1F5;*/
+	background-color: #EEF6FA;
 	/*background-color: #F2F2F2;*/
 	/*background-color: #E6E6E6;*/
 	/*background-color: #F2FBFF;*/
