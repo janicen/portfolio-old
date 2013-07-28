@@ -20,6 +20,7 @@ html, body {
 	font-weight: 400;
 	color: #000000;
 	background-color: #DEE6EA;
+	/*background-color: #F2FBFF;*/
 }
 
 html, body, ul, ol, li, form, fieldset, legend,
@@ -34,6 +35,8 @@ h1, h2, h3, h4, h5, h6, p {
 	h1 {
 		font-size: 2.5em;
 		color: #5ECBF4;
+		/*font-weight: 400;
+		border: 1px solid black;*/
 	}
 
 	h2 {
@@ -203,12 +206,12 @@ header {
 		padding-top: 2em;
 	}
 
-	/*.logo img {
-		max-width: 30%;
-		width: 258px;
+	.logo img {
+		/*max-width: 30%;*/
+		width: 211px;
 		height: auto;
 		border: none;
-	}*/
+	}
 
 /* ========== NAVBAR ========== */
 nav {
@@ -216,26 +219,9 @@ nav {
 	text-align: right;
 }
 
-	/* full line */
-	/*nav ul {
-		width: 78%;
-		float: right;
-		padding-top: 1.2em;
-		margin-top: -6.75em;
-		border-top: 4px solid black;
-	}*/
-
-	/* medium line */
-	/*nav ul {
-		width: 30%;
-		float: right;
-		padding-top: 1.2em;
-		margin-top: -6.75em;
-		border-top: 4px solid black;
-	}*/
-
 	/* short line */
 	nav ul {
+		/*width: 70%;*/
 		width: 70%;
 		float: right;
 		margin-top: -7.3em;
@@ -243,11 +229,13 @@ nav {
 
 	nav ul li {
 		display: inline;
-		font-size: 1.6em;
+		/*font-size: 1.6em;*/
+		font-size: 1.7em;
 		font-weight: bold;
-		padding: .1em 0 0 2em;
-		margin-left: 1em;
-		border-top: 4px solid black;
+		/*padding: .1em 0 0 2em;*/
+		padding: 0 0 0 1.2em;
+		margin-left: .8em;
+		/*border-top: 4px solid black;*/
 }
 
 /* ========== FOOTER ========== */

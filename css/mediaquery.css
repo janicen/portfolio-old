@@ -143,11 +143,11 @@ html, body {
 
 /* ========== HEADER ========== */
 
-.logo img {
-	max-width: 70%;
+/*.logo img {
+	max-width: 30%;
 	width: 258px;
 	height: auto;
-}
+}*/
 
 /* ========== FOOTER ========== */
 
@@ -390,16 +390,18 @@ html, body {
 /* ========== HEADER ========== */
 
 .logo img {
-	max-width: 70%;
-	width: 258px;
+	max-width: 80%;
+	width: 190px;
 	height: auto;
 }
 
 /* ========== NAVBAR ========== */
 
 nav ul {
-	width: 40%;
-	margin-top: -7em;
+	width: 35%;
+	padding: .5em;
+	/*margin-top: -7em;*/
+	margin-top: -9.5em;
 }
 
 nav ul li {
