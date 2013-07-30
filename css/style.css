@@ -214,7 +214,8 @@ header {
 
 	.logo img {
 		/*max-width: 30%;*/
-		width: 211px;
+		/*width: 211px;*/
+		width: 331px;
 		height: auto;
 		border: none;
 	}
