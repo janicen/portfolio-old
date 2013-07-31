@@ -523,7 +523,8 @@ a.grey {
 	width: 15%;
 	float: left;
 	/*padding: 3.5em 0 0 3.8em;*/
-	padding: 3.5em 0 0 1.2em;
+	/*padding: 3.5em 0 0 1.2em;*/
+	padding: 3.5em 0 0 1.6em;
 	clear: both;
 }
 
@@ -531,7 +532,8 @@ a.grey {
 	width: 70%;
 	float: left;
 	/*padding: 3.5em 0 0 10em;*/
-	padding: 3.5em 0 0 7.4em;
+	/*padding: 3.5em 0 0 7.4em;*/
+	padding: 3.5em 0 0 7.3em;
 }
 
 	.descriptionsright p {
