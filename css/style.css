@@ -452,12 +452,14 @@ a {
 	}
 
 .contact {
+	width: 100%;
 	float: left;
 	clear: both;
 	margin-top: .5em;
 }
 
-	.contact ul li{
+	.contact ul li {
+		float: left;
 		display: inline;
 		padding-right: 3em;
 	}
