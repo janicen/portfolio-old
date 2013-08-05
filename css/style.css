@@ -412,15 +412,16 @@ a {
 	margin: 0;
 }
 
-	#home .content img {
-		/*margin: .5em 0;*/
-		/*margin: .3em 0;*/
-	}
+	/*#home .content img {
+		margin: .5em 0;
+		margin: .3em 0;
+	}*/
 
 /* ========== FONTS ========== */
 
 #home h4 {
-	padding-bottom: 1em;
+	font-weight: 600;
+	padding: .4em 0;
 }
 
 /* ================================================================ 
