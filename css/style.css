@@ -1,7 +1,7 @@
 /*
 
 	IAT 381: D401
-	Project 3: Portfolio
+	Project 4: Portfolio
 	Janice Ng
 
 	CSS file: Main Style
@@ -56,7 +56,6 @@ h1, h2, h3, h4, h5, h6, p {
 
 	h4 {
 		font-size: 1.2em;
-		/*font-weight: bold;*/
 		font-weight: 600;
 		color: #000000;
 	}
@@ -235,9 +234,7 @@ nav {
 	text-align: right;
 }
 
-	/* short line */
 	nav ul {
-		/*width: 70%;*/
 		width: 70%;
 		float: right;
 		/*margin-top: -7.3em;*/
@@ -262,7 +259,6 @@ nav {
 	/*padding-top: 1em;*/
 	padding-top: 1.3em;
 	margin-top: 3em;
-	/*border-top: 1px solid black;*/
 	/*border-top: 1px solid #949494;*/
 	border-top: 1px dotted #939598;
 }
@@ -290,7 +286,6 @@ nav {
 .wrapper {
 	/*padding-top: 1.8em;*/
 	padding-top: 1.6em;
-	/*border-bottom: 1px solid black;*/
 	/*border-bottom: 1px solid #949494;*/
 	border-bottom: 1px dotted #939598;
 	overflow: hidden;
@@ -411,11 +406,6 @@ a {
 	float: right;
 	margin: 0;
 }
-
-	/*#home .content img {
-		margin: .5em 0;
-		margin: .3em 0;
-	}*/
 
 /* ========== FONTS ========== */
 

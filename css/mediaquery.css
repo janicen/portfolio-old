@@ -1,12 +1,12 @@
 /*
 
 	IAT 381: D401
-	Project 3: Portfolio
+	Project 4: Portfolio
 	Janice Ng
 
 	CSS: Mobile Query
 
-	Tablet: 1.Grid 3.Layout 4.IndexPage 5.AboutPage 6.WorksPage
+	Tablet: 1.Base 2.Grid 3.Layout 4.IndexPage 5.AboutPage 6.WorksPage
 	Mobile: 1.Base 2.Grid 3.Layout 4.IndexPage 5.AboutPage 6.WorksPage
 
 */
@@ -290,13 +290,6 @@ html, body {
 .container {
 	padding: 1em;
 }
-
-	/* ========== FONT ========== */
-
-/*	h1 {
-		font-size: 2em;
-		color: #5ECBF4;
-	}*/
 
 /* ================================================================ 
 	BASE END
