@@ -35,6 +35,15 @@
 	<!-- HTML5shiv.js from http://code.google.com/p/html5shiv/ -->
 	<script type="text/javascript" src="./js/html5shiv.js"></script> <!-- HTML5shiv for compatibility on older IE browsers -->
 
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="js/jquery.hoverizr.js"></script>
+	<script>
+			$(window).load(function() {
+				$('.gray').hoverizr({width:"210px", height:"210px", stretch:"yes"});
+				$('.gray_footer').hoverizr({width:"30px", height:"30px", stretch:"yes"});
+			});
+		</script>
+
 	<!-- FONT: Muli -->
 	<link href='http://fonts.googleapis.com/css?family=Istok+Web' rel='stylesheet' type='text/css'>
 
@@ -82,8 +91,12 @@
 				<div class="images">
 
 					<!-- Column1: Desktop Start --> 
-					<div class="column1">
+					<!-- <div class="column1">
 						<a class="grey" href="http://www.sfu.ca/~janicen/2Portfolio/ll_presentation.pdf"><img src="./img/ll.png" width="210" height="210" alt="image3"/></a>
+						<h5><a href="http://www.sfu.ca/~janicen/2Portfolio/ll_presentation.pdf">download slides</a></h5>
+					</div> -->
+					<div class="column1">
+						<a href="http://www.sfu.ca/~janicen/2Portfolio/ll_presentation.pdf"><img class="gray" src="./img/ll.png" alt="image3"/></a>
 						<h5><a href="http://www.sfu.ca/~janicen/2Portfolio/ll_presentation.pdf">download slides</a></h5>
 					</div>
 					<!-- Column1: Desktop End -->
@@ -193,9 +206,12 @@
 			<div class="footerwrapper">
 				<p>Janice Ng &copy; 2013</p>
 					<ul>
-						<li><a class="grey" href="http://www.sfu.ca/~janicen/2Portfolio/JaniceNg_Resume.pdf"><img src="./img/resume.png" width="30" height="30" alt="resume"/></a></li>
+						<!-- <li><a class="grey" href="http://www.sfu.ca/~janicen/2Portfolio/JaniceNg_Resume.pdf"><img src="./img/resume.png" width="30" height="30" alt="resume"/></a></li>
 						<li><a class="grey" href="http://www.flickr.com/photos/42005057@N04/"><img src="./img/flickr.png" width="30" height="30" alt="flickr"/></a></li>
-						<li><a class="grey" href="https://twitter.com/jelly_angels"><img src="./img/twitter.png" width="30" height="30" alt="twitter"/></a></li>
+						<li><a class="grey" href="https://twitter.com/jelly_angels"><img src="./img/twitter.png" width="30" height="30" alt="twitter"/></a></li> -->
+						<li><a href="http://www.sfu.ca/~janicen/2Portfolio/JaniceNg_Resume.pdf"><img class="gray_footer" src="./img/resume.png" alt="resume"/></a></li>
+						<li><a href="http://www.flickr.com/photos/42005057@N04/"><img class="gray_footer" src="./img/flickr.png" alt="flickr"/></a></li>
+						<li><a href="https://twitter.com/jelly_angels"><img class="gray_footer" src="./img/twitter.png" alt="twitter"/></a></li>
 					</ul>
 			</div>
 
