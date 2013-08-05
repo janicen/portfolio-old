@@ -100,7 +100,8 @@ li {
 	/*width: 28%;*/
 	text-align: center;
 	float: left;
-	padding-left: 3.5em;
+	/*padding-left: 3.5em;*/
+	padding-left: 5em;
 }
 
 	/* TABLET DISPLAY NONE */
@@ -255,7 +256,8 @@ nav {
 	/*margin-top: 3em;*/
 	margin-top: 2em;
 	/*border-top: 1px solid black;*/
-	border-top: 1px solid #949494;
+	/*border-top: 1px solid #949494;*/
+	border-top: 1px dotted #939598;
 }
 
 	footer p {
@@ -282,7 +284,8 @@ nav {
 	padding-top: 1.8em;
 	/*padding-top: 1.6em;*/
 	/*border-bottom: 1px solid black;*/
-	border-bottom: 1px solid #949494;
+	/*border-bottom: 1px solid #949494;*/
+	border-bottom: 1px dotted #939598;
 	overflow: hidden;
 }
 
@@ -362,7 +365,7 @@ a {
 /* ========== GRAYSCALE IMAGES ========== */
 
 /* Images starts grey */
-/*a.grey {
+a.grey {
 	-webkit-filter: grayscale(100%);
 	-moz-filter: 	grayscale(100%);
 	-o-filter: 		grayscale(100%);
@@ -382,7 +385,8 @@ a {
 		-o-filter: 		grayscale(0%);
 		-ms-filter:		grayscale(0%);
 			filter: 	grayscale(0%);
-	}*/
+	}
+
 
 /* ================================================================ 
 	LINKS END 
@@ -402,9 +406,20 @@ a {
 }
 
 	#home .content img {
-		/*margin: 1em 0;*/
-		margin: .5em 0;
+		/*margin: .5em 0;*/
+		margin: .3em 0;
 	}
+
+/* ========== FONTS ========== */
+
+#home h4 {
+	padding-bottom: 1em;
+}
+
+#home p {
+	font-size: 1.1em;
+	margin-top: -.5em;
+}
 
 /* ================================================================ 
 	INDEX PAGE END 
