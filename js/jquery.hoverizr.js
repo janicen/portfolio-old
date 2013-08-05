@@ -36,8 +36,8 @@ $.fn.hoverizr = function(options) {
 		'width':         "responsive", //can be 'responsive' fixed width, ex. 500 or 'inherit' from the image
 		'height':        "auto", //please change the height default only if you plan to use a fixed width on your initialization
 		'stretch':       "no", //if you set a fixed width for image and div the img aspect ratio will not change - it will crop the image and canvas outside, if set to "yes" the image and canvas will stretch to fill the fixed width and height you chose
-		'speedIn':       "slow", // 'slow', 'fast' or time in milliseconds, ex 1500
-		'speedOut':      "slow" // same as above
+		'speedIn':       "300", // 'slow', 'fast' or time in milliseconds, ex 1500
+		'speedOut':      "300" // same as above
 	};
 
 	//inherit from provided configuration
