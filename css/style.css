@@ -262,14 +262,15 @@ nav {
 
 	footer p {
 		font-size: 1.2em;
-		padding-bottom: 1em;
+		padding: .5em 0 1em 0;
 	}
 
 	.footerwrapper ul {
 		float: right;
 		overflow: hidden;
 		/*margin-top: -3em;*/
-		margin-top: -3.5em;
+		/*margin-top: -3.5em;*/
+		margin-top: -3.2em;
 	}
 
 		.footerwrapper ul li {
@@ -365,7 +366,7 @@ a {
 /* ========== GRAYSCALE IMAGES ========== */
 
 /* Images starts grey */
-a.grey {
+/*a.grey {
 	-webkit-filter: grayscale(100%);
 	-moz-filter: 	grayscale(100%);
 	-o-filter: 		grayscale(100%);
@@ -385,7 +386,7 @@ a.grey {
 		-o-filter: 		grayscale(0%);
 		-ms-filter:		grayscale(0%);
 			filter: 	grayscale(0%);
-	}
+	}*/
 
 
 /* ================================================================ 
