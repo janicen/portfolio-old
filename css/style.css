@@ -293,6 +293,10 @@ nav {
 
 /* ========== IMAGES ========== */
 
+img {
+	border: none;
+}
+
 .content img {
 	max-width: 100%;
 	/*width: 240px;*/
