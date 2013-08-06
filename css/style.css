@@ -367,11 +367,13 @@ a {
 /* ========== GRAYSCALE IMAGES ========== */
 
 /* Images starts grey */
-/*a.grey {
+a.grey {
 	-webkit-filter: grayscale(100%);
+	-webkit-filter: grayscale(1);
 	-moz-filter: 	grayscale(100%);
 	-o-filter: 		grayscale(100%);
 	-ms-filter: 	grayscale(100%);
+		filter: url('grayscale.svg#greyscale');
 		filter: 	grayscale(100%);
 
 	-webkit-transition: all 0.3s ease;
@@ -386,8 +388,9 @@ a {
 		-moz-filter: 	grayscale(0%);
 		-o-filter: 		grayscale(0%);
 		-ms-filter:		grayscale(0%);
+			filter: 	none;
 			filter: 	grayscale(0%);
-	}*/
+	}
 
 
 /* ================================================================ 
