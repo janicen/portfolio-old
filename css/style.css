@@ -587,6 +587,8 @@ a.grey {
 
 	.arrows ul img {
 		border: none;
+		width: 25px;
+		height: auto;
 	}
 
 /* ================================================================ 
