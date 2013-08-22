@@ -261,7 +261,8 @@ nav {
 	/*margin-top: 3em;*/
 	margin-top: 2.5em;
 	/*border-top: 1px solid #949494;*/
-	border-top: 1px dotted #939598;
+	/*border-top: 1px dotted #939598;*/
+	border-top: 1px dotted #C7C7C7;
 }
 
 	footer p {
@@ -288,7 +289,7 @@ nav {
 	/*padding-top: 1.8em;*/
 	padding-top: 1.6em;
 	/*border-bottom: 1px solid #949494;*/
-	border-bottom: 1px dotted #939598;
+	border-bottom: 1px dotted #C7C7C7;
 	overflow: hidden;
 }
 
