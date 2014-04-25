@@ -108,7 +108,8 @@ li {
 	text-align: center;
 	float: left;
 	/*padding-left: 3.5em;*/
-	padding-left: 4em;
+	/*padding-left: 4em;*/
+	padding-left: 6em;
 }
 
 	/* TABLET DISPLAY NONE */
@@ -222,7 +223,7 @@ header {
 	.logo img {
 		/*max-width: 30%;*/
 		/*width: 211px;*/
-		width: 331px;
+		width: 210px;
 		height: auto;
 		border: none;
 		
@@ -335,6 +336,7 @@ img {
 .text {
 	float: left;
 	padding-right: 1.5em;
+	margin-bottom: 1.5em;
 }
 
 /* ================================================================ 
@@ -411,7 +413,8 @@ a.grey {
 
 #home .images {
 	float: right;
-	margin: 0;
+	/*margin: 0;*/
+	margin-top: 1.2em;
 }
 
 /* ========== FONTS ========== */
@@ -485,7 +488,7 @@ a.grey {
 .images {
 	float: left;
 	overflow: hidden;
-	margin-top: 2em;
+	margin-top: 1.5em;
 }
 
 	/* ---------- WORKS IMAGES ---------- */
